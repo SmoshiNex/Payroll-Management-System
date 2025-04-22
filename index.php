@@ -2,7 +2,7 @@
 session_start();
 include "api/database.php";
 include "class/Accounts.php";
-
+//HELLO
 $database = new Database();
 $conn = $database->getConnection();
 $accounts = new Accounts($conn);

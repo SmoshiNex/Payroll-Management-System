@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-
+//HELLO
 
 async function addAccount() {
     const email = document.getElementById("email").value;
